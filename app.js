@@ -195,6 +195,6 @@ app.get("/", async (req, res) => {
 
 const server = app;
 const PORT = 5000 || process.env.PORT
-server.listen(5001, async () => {
+server.listen(5000, async () => {
     console.log("server running on port ", PORT);
 });
